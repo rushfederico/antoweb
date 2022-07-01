@@ -1,0 +1,27 @@
+#header{
+	background-image: url('../img/header.png');
+	background-size: cover;
+    height: 100vh;
+}
+#servicios{
+	background-image: url('../img/servicios.png');
+	background-size: cover;
+}
+#galpones{
+	background-image: url('../img/galpones.png');
+	background-size: cover;
+}
+#footerSocial{
+	list-style: none;
+}
+#footerSocial li{
+	display: inline-block;
+}
+#footerSocial i{
+	color: #fff;
+	font-size: 30px;
+}
+#livomLink{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
