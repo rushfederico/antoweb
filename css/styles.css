@@ -3,7 +3,6 @@
   flex-direction: row;
   justify-content: space-evenly;
   border: 2px solid slateblue;
-  width: 70%;
 }
 
 #theForm .formSide {
@@ -17,8 +16,6 @@
 }
 #formContainer {
   border: 1px solid #ccc;
-  display: flex;
-  justify-content: center;
 }
 
 #header {
