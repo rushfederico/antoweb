@@ -1,3 +1,30 @@
+#theForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: 2px solid slateblue;
+  width: 70%;
+}
+
+#theForm .formSide {
+  flex: 1;
+}
+#formLeft {
+  padding-right: 5%;
+}
+#formRight {
+  padding-left: 5%;
+}
+#formContainer {
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+}
+
+#header {
+  border: 2px solid goldenrod;
+}
+
 .imgContainer {
   border: 1px solid #d3d3d3;
   height: 100%;
@@ -16,7 +43,6 @@
   border: 1px solid lightcoral;
   width: 100%;
   list-style: none;
-  padding: ;
 }
 #navMenu {
   border: 1px solid red;
