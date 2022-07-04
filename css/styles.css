@@ -1,20 +1,43 @@
 .contentBoxes {
   width: 500px;
-
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-shadow: 0 0 10px #ccc;
-  padding: 10px;
+  padding: 30px 0px 30px 20px;
   line-height: 1.8;
   font-size: 18px;
-  letter-spacing: 0.2px;
+}
+
+.contentBoxes ul {
+  letter-spacing: 1px;
 }
 
 #contentBox1 {
   color: #fff;
+  border: 2px solid #ccc;
 }
 
 #contentBox2 {
+  background-color: #dbe7f0;
+}
+
+.cBJuntos {
+  background-color: rgba(6, 7, 9, 0.5);
+}
+
+.cBJuntos ul {
+  color: #fff;
+}
+
+.cBJuntos .contentTitles {
+  color: #000;
+  background-color: #fff;
+  padding-left: 5px;
+  display: flex;
+}
+
+.cBJuntos .contentTitles .cosito {
+  background-color: #e26a47;
+  width: 50px;
+  height: 30px;
+  margin-right: 20px;
 }
 
 #contentBox3 {
@@ -27,18 +50,42 @@
 }
 
 #contentBox6 {
+  background-color: #fff;
 }
 
 #contentBox7 {
+  width: 100%;
+}
+
+#contentBox7 .pageTitle {
+  width: 100%;
 }
 
 .contentTitles {
   font-size: 20px;
   font-weight: bold;
-  margin-bottom: 10px;
-  letter-spacing: 0.2px;
+  margin-bottom: 20px;
+  letter-spacing: 1.2px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
+#contentTitle1 {
+  color: #fff;
+}
+
+#contentTitle2 {
+  background-color: #354456;
+  padding-left: 5px;
+}
+#contentTitle2 .cosito {
+  background-color: #fff;
+  width: 50px;
+  height: 30px;
+  margin-right: 20px;
+}
 button {
   margin-top: 1em;
 }
@@ -63,9 +110,9 @@ label {
   font-weight: 900;
   margin-bottom: 0.5em;
   color: #fff;
-  width: 100%;
   line-height: 1.4em;
   letter-spacing: 1.5px;
+  margin-right: 15%;
 }
 
 .highlight {
@@ -73,7 +120,10 @@ label {
   color: #fff;
   height: 80%;
 }
-
+.highlight2 {
+  color: #fff;
+  width: 100%;
+}
 #theForm {
   display: flex;
   flex-direction: row;
