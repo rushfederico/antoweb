@@ -155,10 +155,14 @@ label {
 #menu {
   list-style: none;
   background-color: #354456;
+  display: flex;
+  align-items: center;
 }
 #navMenu {
-  height: auto;
+  height: 100%;
   margin-right: 5%;
+  display: flex;
+  align-items: center;
 }
 #header {
   background-image: url("../img/header.png");
