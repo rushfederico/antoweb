@@ -1,3 +1,44 @@
+.contentBoxes {
+  width: 500px;
+
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #ccc;
+  padding: 10px;
+  line-height: 1.8;
+  font-size: 18px;
+  letter-spacing: 0.2px;
+}
+
+#contentBox1 {
+  color: #fff;
+}
+
+#contentBox2 {
+}
+
+#contentBox3 {
+}
+
+#contentBox4 {
+}
+
+#contentBox5 {
+}
+
+#contentBox6 {
+}
+
+#contentBox7 {
+}
+
+.contentTitles {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  letter-spacing: 0.2px;
+}
+
 button {
   margin-top: 1em;
 }
@@ -14,15 +55,17 @@ label {
   font-size: 1em;
   font-weight: 500;
   color: #fff;
+  letter-spacing: 1px;
 }
 
 .pageTitle {
-  font-size: 1.5em;
-  font-weight: bold;
+  font-size: 1.3em;
+  font-weight: 900;
   margin-bottom: 0.5em;
   color: #fff;
   width: 100%;
   line-height: 1.4em;
+  letter-spacing: 1.5px;
 }
 
 .highlight {
@@ -76,7 +119,6 @@ label {
 #servicios {
   background-image: url("../img/servicios.png");
   background-size: cover;
-  height: 200vh;
 }
 #galpones {
   background-image: url("../img/galpones.png");
