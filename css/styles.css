@@ -1,5 +1,4 @@
 .contentBoxes {
-  width: 500px;
   padding: 30px 0px 30px 20px;
   line-height: 1.8;
   font-size: 18px;
@@ -7,6 +6,8 @@
 
 .contentBoxes ul {
   letter-spacing: 1px;
+  padding: 0;
+  list-style-type: none;
 }
 
 #contentBox1 {
@@ -19,7 +20,7 @@
 }
 
 .cBJuntos {
-  background-color: rgba(6, 7, 9, 0.5);
+  background-color: rgba(53, 68, 86, 0.8);
 }
 
 .cBJuntos ul {
@@ -40,6 +41,27 @@
   margin-right: 20px;
 }
 
+.cBJuntos2 {
+  background-color: rgba(53, 68, 86, 0.8);
+}
+
+.cBJuntos2 ul {
+  color: #fff;
+}
+
+.cBJuntos2 .contentTitles {
+  color: #fff;
+  background-color: #e26a47;
+  padding-left: 5px;
+  display: flex;
+}
+
+.cBJuntos2 .contentTitles .cosito {
+  background-color: #fff;
+  width: 50px;
+  height: 30px;
+  margin-right: 20px;
+}
 #contentBox3 {
 }
 
@@ -106,23 +128,37 @@ label {
 }
 
 .pageTitle {
-  font-size: 1.3em;
+  font-size: 1.1rem;
   font-weight: 900;
   margin-bottom: 0.5em;
   color: #fff;
   line-height: 1.4em;
   letter-spacing: 1.5px;
-  margin-right: 15%;
+  border: 2px solid white;
+}
+
+.pageTitle div {
+  border: 2px solid gold;
 }
 
 .highlight {
   background-color: #e26a47;
   color: #fff;
-  height: 80%;
+  width: 80px;
 }
 .highlight2 {
   color: #fff;
   width: 100%;
+}
+.widthHighlight {
+  width: 100%;
+  background-color: #e26a47;
+  padding: 3px;
+  margin: 0 !important;
+}
+
+.widthAlgunos {
+  padding: 0;
 }
 #theForm {
   display: flex;
@@ -148,22 +184,45 @@ label {
   justify-content: center;
   align-items: center;
 }
+.navContainer {
+  display: flex;
+  align-items: center;
+}
 .logo {
   width: 40%;
   height: auto;
 }
+
+#navMenu {
+  height: 100%;
+  margin-right: 5%;
+}
+
+.nav-item {
+  display: flex;
+}
+.nav-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 #menu {
   list-style: none;
   background-color: #354456;
   display: flex;
   align-items: center;
 }
-#navMenu {
-  height: 100%;
-  margin-right: 5%;
-  display: flex;
-  align-items: center;
+
+.headerHover {
+  background-color: #e26a47;
+  width: 30%;
+  height: 4px;
 }
+
+#theHeader {
+}
+
 #header {
   background-image: url("../img/header.png");
   background-repeat: no-repeat;
